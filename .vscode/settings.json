@@ -1,6 +1,12 @@
 {
     "cSpell.words": [
+        "antialiasing",
         "bytemuck",
-        "wgpu"
+        "chrono",
+        "mainapp",
+        "mintv",
+        "vite",
+        "wgpu",
+        "winget"
     ]
 }

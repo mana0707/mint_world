@@ -1,11 +1,11 @@
 [package]
-name = "mint_world"
+name = "mint1563"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
-futures = "0.3.31"
-iced = "0.13.1"
-iced_wgpu = "0.13.5"
-wgpu = "25.0.0"
-bytemuck = { version = "1.14", features = ["derive", "extern_crate_std"] }
+pyo3 = { version = "0.18.0", features = ["auto-initialize"] }
+chrono = "0.4.39"
+iced = { version = "0.13.1", features = ["canvas", "tokio", "debug"] }
+iced_native = "0.10.3"
+tracing-subscriber = "0.3"
