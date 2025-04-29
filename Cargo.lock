@@ -1906,6 +1906,8 @@ dependencies = [
 name = "mint_world"
 version = "0.1.0"
 dependencies = [
+ "bytemuck",
+ "futures",
  "iced",
  "iced_wgpu",
  "wgpu 25.0.0",
